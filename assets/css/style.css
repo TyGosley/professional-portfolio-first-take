@@ -33,3 +33,27 @@ li {
     margin: 40px;
     
 }
+
+img {
+    height: 300px;
+    width: 300px;
+}
+
+#about-me-image {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+}
+
+
+.content {
+    width: 50%;
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.float-left {
+    float: left;
+    margin: 20px;
+    
+}
