@@ -1,0 +1,35 @@
+* {
+    ;
+}
+/*change text color? 
+change font-family*/
+.header {
+    padding: 10px;
+    color: #8D918D;
+    font-family: monospace;
+    background-color: #FC1582;
+
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 30px;
+
+}
+
+ .go {
+    color: black;
+}
+ul {
+    text-align: center;
+    color: #8D918D;
+
+}
+
+li {
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    margin: 40px;
+    
+}
