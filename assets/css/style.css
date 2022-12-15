@@ -1,0 +1,78 @@
+* {
+    font-family: "Saira Stencil One", serif;
+    margin: 0;
+    padding: 0;
+}
+ /*Element Selector */
+body {
+    background-color: black;
+}
+
+header{
+    position: fixed;
+    background: black;
+    width: 100%;
+    border-bottom: 15px solid #9D744F;
+    
+}
+
+h3 {
+    color: #BC3FAA;
+    font-size: 25px;
+}
+
+main {
+    padding-top: 10%;
+}
+
+nav{
+    padding: 10px 0;
+}
+
+nav a {
+    color: #BC3FAA;
+    font-size: 25px;
+}
+
+li {
+    list-style: none;
+    padding: 0 20px;
+}
+nav li {
+    display: inline;
+    padding: 0 100px;
+}
+
+/* Class & ID selectors */
+
+#about {
+    margin: 10px;
+    color: #FFF3FE;
+    padding: 10px;
+    text-align: /* figure this out; */
+}
+
+#about img {
+    height: 300px;
+    width: 300px;
+    float: left;
+    border: 10px solid #9D744F;
+    margin: 10px ;
+}
+
+#about p {
+    text-align: left;
+    margin: 10px 10px;
+}
+#work {
+    margin: 10px;
+    color: #FFF3FE;
+    padding: 10px;
+}
+
+#work img
+/* Utility Classes */
+
+.until--text-center {
+    text-align: center;
+}
