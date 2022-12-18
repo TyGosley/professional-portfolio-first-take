@@ -17,6 +17,7 @@ header{
 }
 
 h2 {
+    margin: auto;
     color: #BC3FAA;
     font-size: 25px;
     text-align:center;
@@ -25,9 +26,11 @@ h3 {
     color: #BC3FAA;
     font-size: 25px;
     text-align: center;
+    padding: 20px;
     
   
 }
+
 
 main {
     padding-top: 10%;
@@ -60,7 +63,7 @@ img {
     max-width: 40%;
     height: auto;
     border: 5px solid #9D744F;
-    /*add border blah blah */
+    
 }
 
 .image {
@@ -75,7 +78,7 @@ img {
 }
 
 #about {
-    margin: 50px; 
+    margin: 10px; 
     color: #FFF3FE;
     padding: 50px;
      
@@ -84,13 +87,51 @@ img {
 #work {
     margin: 100px;
     color: #FFF3FE;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
+#container-work {
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+#contact {
+   margin: auto;
+    color: #FFF3FE;
+    display: inline;
+}
+
+a {
+    color: white;
+}
 
 /* Utility Classes */
 
 .until--text-center {
     text-align: center;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .example {background: red;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    body {background: darkgray;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    body{background: black;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    body {background: darkgray;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    body {background: black;}
+  }
