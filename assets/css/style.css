@@ -1,10 +1,10 @@
 * {
     font-family: "Saira Stencil One", serif;
     margin: 0;
-    padding: 0;
+
 }
  /*Element Selector */
-body {
+body { /* maybe add ba background image here*/
     background-color: black;
 }
 
@@ -16,18 +16,27 @@ header{
     
 }
 
+h2 {
+    color: #BC3FAA;
+    font-size: 25px;
+    text-align:center;
+}
 h3 {
     color: #BC3FAA;
     font-size: 25px;
+    text-align: center;
+    
+  
 }
 
 main {
     padding-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
 }
 
-nav{
-    padding: 10px 0;
-}
+
 
 nav a {
     color: #BC3FAA;
@@ -45,32 +54,41 @@ nav li {
 
 /* Class & ID selectors */
 
+
+
+img {
+    max-width: 40%;
+    height: auto;
+    border: 5px solid #9D744F;
+    /*add border blah blah */
+}
+
+.image {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 20px;
+    color: aliceblue;
+}
+
 #about {
-    margin: 10px;
+    margin: 50px; 
     color: #FFF3FE;
-    padding: 10px;
-    text-align: /* figure this out; */
+    padding: 50px;
+     
 }
 
-#about img {
-    height: 300px;
-    width: 300px;
-    float: left;
-    border: 10px solid #9D744F;
-    margin: 10px ;
-}
-
-#about p {
-    text-align: left;
-    margin: 10px 10px;
-}
 #work {
-    margin: 10px;
+    margin: 100px;
     color: #FFF3FE;
     padding: 10px;
+    
 }
 
-#work img
+
 /* Utility Classes */
 
 .until--text-center {
