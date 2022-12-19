@@ -48,7 +48,7 @@ Although I enjoyed this challenge, it highlighted a lot of items that need to be
 
 ## Usage
 
-To navigate to this page, please [CLICK HERE](https://tygosley.github.io/module-1-challenge/).  To use the Chrome DevTools, simply "right click" and use the inspect function or use keyboard shortcuts by press Command+Option+I (macOS) or Control+Shift+I (Windows).
+To navigate to this page, please [CLICK HERE](https://tygosley.github.io/module2-challenge/).  To use the Chrome DevTools, simply "right click" and use the inspect function or use keyboard shortcuts by press Command+Option+I (macOS) or Control+Shift+I (Windows).
   
 ## Credits
 
